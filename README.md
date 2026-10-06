@@ -25,7 +25,7 @@ current:  [ trajecktory: an AI job-search command center, a DGX Spark running lo
 | Open source | Local lab |
 |:--|:--|
 | [**trajecktory**](https://github.com/michaelinghilterra-creator/trajecktory): run a whole job search from one local AI dashboard. Scores postings, tailors a resume in 3 minutes instead of 2 hours, keeps every follow-up alive. 80+ releases. | **Inference box**: an NVIDIA DGX Spark serving an open-weight MoE model on vLLM, 262K context, speculative decoding. A new model only gets the box if it beats the incumbent on my own rubric: five challengers so far, zero wins. |
-| [**outreach-grader**](https://github.com/michaelinghilterra-creator/outreach-grader): paste a cold email or LinkedIn message, get a score on 8 dimensions and a rewrite. | **Private agent**: a Telegram assistant running on the local model. No cloud. |
+| [**outreach-grader**](https://github.com/michaelinghilterra-creator/outreach-grader): paste a cold email or LinkedIn message, get a score on 8 dimensions and a rewrite. | **Private agent**: an iMessage assistant running on the local model. |
 | [**ai-text-hygiene**](https://github.com/michaelinghilterra-creator/ai-text-hygiene): strip invisible Unicode and AI tells down to plain, ATS-safe text. Zero dependencies. | **Nightly sourcing**: four runs a day that scan job boards, pre-filter on the local model, score, and brief me. |
 
 `local != cloud`: the lab runs on hardware I own, so the data never leaves the house.
