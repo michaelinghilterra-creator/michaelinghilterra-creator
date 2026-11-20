@@ -20,6 +20,12 @@ focus:    [ pipeline & forecast inspection, MEDDPICC, BI & exec reporting, appli
 current:  [ trajecktory: an AI job-search command center, a DGX Spark running local models ]
 ```
 
+## Featured
+
+<a href="https://github.com/michaelinghilterra-creator/TheGavel"><img src="https://raw.githubusercontent.com/michaelinghilterra-creator/TheGavel/main/assets/thegavel.svg" width="100%" alt="TheGavel: read the probabilities, don't let the judge talk. A bar chart shows one rating as probabilities over the digits 0 to 5."></a>
+
+**[TheGavel](https://github.com/michaelinghilterra-creator/TheGavel)**: an LLM judge that reads the probability of each rating instead of letting the model write the score. On job postings it had never seen, it flagged about 30% fewer weak roles as strong while writing a twentieth of the text.
+
 ## What I'm building
 
 | Open source | Local lab |
