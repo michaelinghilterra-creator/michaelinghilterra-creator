@@ -27,6 +27,7 @@ current:  [ trajecktory: an AI job-search command center, a DGX Spark running lo
 | [**trajecktory**](https://github.com/michaelinghilterra-creator/trajecktory): run a whole job search from one local AI dashboard. Scores postings, tailors a resume in 3 minutes instead of 2 hours, keeps every follow-up alive. 160+ releases. | **Inference box**: an NVIDIA DGX Spark serving an open-weight MoE model on SGLang with speculative decoding, sharing the GPU with a video model and a voice model. Models earn the box on my own benchmarks, not published ones, and the daily driver is the fastest one that clears the bar. |
 | [**outreach-grader**](https://github.com/michaelinghilterra-creator/outreach-grader): paste a cold email or LinkedIn message, get a score on 8 dimensions and a rewrite. | **Private agent**: an iMessage assistant running on the local model. |
 | [**ai-text-hygiene**](https://github.com/michaelinghilterra-creator/ai-text-hygiene): strip invisible Unicode and AI tells down to plain, ATS-safe text. Zero dependencies. | **Nightly sourcing**: four runs a day that scan job boards, pre-filter on the local model, score, and brief me. |
+| [**taskbar-usage-widget**](https://github.com/michaelinghilterra-creator/taskbar-usage-widget): Claude and Codex limits, plus local AI servers, live in the Windows taskbar. It also tells Claude Code when to hand work to another model. Rust, about 1 MB. | |
 
 `local != cloud`: the lab runs on hardware I own, so the data never leaves the house.
 
