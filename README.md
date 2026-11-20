@@ -28,6 +28,7 @@ current:  [ trajecktory: an AI job-search command center, a DGX Spark running lo
 | [**outreach-grader**](https://github.com/michaelinghilterra-creator/outreach-grader): paste a cold email or LinkedIn message, get a score on 8 dimensions and a rewrite. | **Private agent**: an iMessage assistant running on the local model. |
 | [**ai-text-hygiene**](https://github.com/michaelinghilterra-creator/ai-text-hygiene): strip invisible Unicode and AI tells down to plain, ATS-safe text. Zero dependencies. | **Nightly sourcing**: four runs a day that scan job boards, pre-filter on the local model, score, and brief me. |
 | [**taskbar-usage-widget**](https://github.com/michaelinghilterra-creator/taskbar-usage-widget): Claude and Codex limits, plus local AI servers, live in the Windows taskbar. It also tells Claude Code when to hand work to another model. Rust, about 1 MB. | |
+| [**TheGavel**](https://github.com/michaelinghilterra-creator/TheGavel): an LLM judge that reads the probability of each rating instead of letting the model write it. A twentieth of the tokens, output that can't break, and the same answer every time, even on an 8 GB laptop GPU. It now screens my job-search queue. | |
 
 `local != cloud`: the lab runs on hardware I own, so the data never leaves the house.
 
